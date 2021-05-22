@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: native
+  application:
+    name: ngvcodes-property-access-service
+  cloud:
+    bootstrap:
+      enabled: true
+
+server:
+  port:${port:8100}

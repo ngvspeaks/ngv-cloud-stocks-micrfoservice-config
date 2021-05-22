@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ngvcodes-spring-cloud-config-server
+  cloud:
+   config:
+     server:
+       git:
+         uri: https://github.com/ngvspeaks/ngv-cloud-stocks-microservice.git
+
+server:
+  port: ${port:8888}
+
+
