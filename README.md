@@ -1,0 +1,1 @@
+"# ngv-cloud-stocks-microservice" 
